@@ -1,0 +1,74 @@
+.experience__container {
+  display: flex;  
+  justify-content: center;
+  gap: 1rem;
+}
+
+.experience__container > div {
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid ;
+}
+
+.experience__container > div:hover {
+  background: transparent;
+  cursor: default;
+  border-color: var(--third-alpha-color);
+  transition: all 600ms ease;
+}
+
+.experience__container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ffff;
+}
+
+.experience__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  row-gap: 2rem;
+  gap: 1rem;
+
+}
+
+.experience__details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+.experience_front{
+  background: rgba(255, 255, 255, 0.05);
+}
+
+@media screen and (max-width: 1024px) {
+  .experience__container{
+    display: grid;
+    grid-template-columns: 1fr;
+     }
+  .experience__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .experience__content {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   .experience__content {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    padding: 0;
+  }
+  .experience__container{
+    gap: 1rem;
+     }
+  .experience__container > div {
+    width: 90%;    
+  }
+
+}
