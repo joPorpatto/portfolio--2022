@@ -68,11 +68,11 @@ const worksList = [
     image:IMG5,
     title:'Portfolio 2022',
     github:'https://github.com/joPorpatto/portfolio--2022',
-    link:'https://joporpatto.github.io/Portfolio',
+    link:'https://joelporpatto.website/',
     info:{
       data: 'Segundo Portfolio.',
       library: 'REACT',
-      tech: 'Css - Formik - YUP'
+      tech: 'Css - Formik'
     }
       },
       {
@@ -83,7 +83,7 @@ const worksList = [
     link:'https://frontend-t8a.herokuapp.com/',
     info:{
       data: 'El proyecto consta en desarrollar el Frontend de una Landing Page donde se encuentra un formulario y crear un Backend para el vínculo con la API.',
-      tech: 'REDUX/TOOLKIT - ESLINT -  AXIOS - REACT ROUTER DOM - FORMIK - React Testing Library - Base de datos en HEROKU',
+      tech: 'HEROKU - REDUX/TOOLKIT - ESLINT -  AXIOS - REACT ROUTER DOM - FORMIK - React Testing Library - Base de datos en MongoDB',
       library: 'React & Node'
     }
       }
