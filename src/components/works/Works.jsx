@@ -20,7 +20,7 @@ const worksList = [
     link:'https://joporpatto.github.io/CardsHeroes/',
       info:{
       data: 'Tarjetas de superhéroes con restricciones de equipos. También se muestran contenidos de poderes y atributos de cada uno.',
-      tech: 'Redux, Thunk, Hooks, React Router',
+      tech: 'Redux, Thunk, Hooks, React Router Dom, Firebase',
       library: 'React',
       AUTENTICACIÓN: 'Firebase', 
       API: 'superheroapi'}
@@ -59,29 +59,32 @@ const worksList = [
     link:'https://joporpatto.github.io/Portfolio',
     info:{
       data: 'Primer Portfolio.',
+      library: 'Sin librerías',
       tech: 'HTML, CSS, JavaScript'
     }
   },
   {
     id:5,
     image:IMG5,
-    title:'Portfolio 2021',
-    github:'https://github.com/joPorpatto/portfolio',
+    title:'Portfolio 2022',
+    github:'https://github.com/joPorpatto/portfolio--2022',
     link:'https://joporpatto.github.io/Portfolio',
     info:{
-      data: 'Primer Portfolio.',
-      tech: 'HTML, CSS, JavaScript'
+      data: 'Segundo Portfolio.',
+      library: 'REACT',
+      tech: 'Css - Formik - YUP'
     }
       },
       {
     id:6,
     image:IMG6,
-    title:'Portfolio 2021',
-    github:'https://github.com/joPorpatto/portfolio',
+    title:'Formulario + Backend',
+    github:'https://github.com/joPorpatto/the8Agency',
     link:'https://frontend-t8a.herokuapp.com/',
     info:{
-      data: 'Primer Portfolio.',
-      tech: 'HTML, CSS, JavaScript'
+      data: 'El proyecto consta en desarrollar el Frontend de una Landing Page donde se encuentra un formulario y crear un Backend para el vínculo con la API.',
+      tech: 'REDUX/TOOLKIT - ESLINT -  AXIOS - REACT ROUTER DOM - FORMIK - React Testing Library - Base de datos en HEROKU',
+      library: 'React & Node'
     }
       }
 ];

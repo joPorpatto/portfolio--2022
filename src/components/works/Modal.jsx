@@ -11,12 +11,13 @@ import { IconContext } from "react-icons";
   //     AUTENTICACIÓN: 'ALKEMY', 
   //     API: 'ongapi.alkemy.org'}
 
-export const Modal = ({setModalVisibility,image, title,info}) => {
+export const Modal = ({setModalVisibility,image, title,info, library }) => {
   console.log(info)
         return (
                 <div className='presentation' role="presentation">
                         <div className= 'wrapper-modal'>
                                 <div className='modal'>
+
                                         <span 
                                                 onClick={()=>setModalVisibility(false)}
                                                 className='modal-close'
@@ -25,15 +26,14 @@ export const Modal = ({setModalVisibility,image, title,info}) => {
                                           <IoIosCloseCircle/>
                                         </IconContext.Provider>
                                         </span>
-                                        <img 
-                                                src={image} 
-                                                alt={title}
-                                                className='modal__poster-img'
-                                        />
+                                                                              
                                         <div className='modal__content'>
+                                          
                                                 <p className='modal__title'>{title}</p>
+                                                 <p className='modal__details'>{info.library} <br/> <br/></p>
                                                 <p className='modal__overview'>{info.data}</p>   
                                                 <p className='modal__details'>{info.tech}</p>
+                                                
    
                                                 
                                         </div>

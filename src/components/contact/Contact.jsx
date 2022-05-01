@@ -78,7 +78,7 @@ export const Contact = () => {
                                                                 onBlur={handleBlur}
                                                                 />    
                                                         <span></span>
-                                                        <label>Name</label>   
+                                                        <label>Nombre</label>   
                                                                 {touched.name && errors.name && <p className="error">{errors.name}</p> }                                   
                                                 </div>
 
@@ -92,7 +92,7 @@ export const Contact = () => {
                                                                 onBlur={handleBlur}
                                                                 />    
                                                         <span></span>
-                                                        <label>Email</label>   
+                                                        <label>Correo</label>   
                                                                 {touched.email && errors.email && <p className="error">{errors.email}</p> }                                   
                                                 </div>
                                         
@@ -106,7 +106,7 @@ export const Contact = () => {
                                                                         onBlur={handleBlur}
                                                                         />    
                                                                 <span></span>
-                                                                <label>Message</label>                                                                                      
+                                                                <label>Mensaje</label>                                                                                      
                                                 </div>
                                                 {(loading)&&<Loading/>}                                        
                                                 <input 

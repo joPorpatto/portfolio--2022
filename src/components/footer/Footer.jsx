@@ -18,8 +18,8 @@ export const Footer = () => {
           </ul>
 
           <div className="footer__socials">
-            <a href='https://google.com.ar'><FaGithub/></a>
-            <a href='https://google.com.ar'><FaLinkedin/></a>
+            <a href='https://github.com/joPorpatto' rel="noreferrer" target={'_blank'}><FaGithub/></a>
+            <a href='https://www.linkedin.com/in/joelporpatto/' rel="noreferrer" target={'_blank'}><FaLinkedin/></a>
           </div>
 
       <div className="footer__copy">
