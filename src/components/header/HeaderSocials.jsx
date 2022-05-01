@@ -10,8 +10,8 @@ export const HeaderSocials = () => {
     <div className='header__socials'>
 
       <IconContext.Provider value={{  size:30}}>
-        <a href='https://linkedin.com' target='_blank'><FaLinkedin/></a>
-        <a href='https://github.com' target='_black'><FaGithub/></a>      
+        <a href='https://www.linkedin.com/in/joelporpatto/' target='_blank'><FaLinkedin/></a>
+        <a href='https://github.com/joPorpatto' target='_black'><FaGithub/></a>      
                      
       </IconContext.Provider>
       
